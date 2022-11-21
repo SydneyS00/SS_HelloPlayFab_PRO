@@ -86,7 +86,7 @@ public class PlayerController : MonoBehaviour
         playButton.SetActive(true);
 
         //Show the leaderboard
-
+        Leaderboard.instance.leaderboardCanvas.SetActive(true);
     }
 
     void OnTriggerEnter(Collider other)
